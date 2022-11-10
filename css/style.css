@@ -623,6 +623,16 @@ img {
   margin-left: 78px;
   margin-bottom: 20px;
 }
+.newsletter-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: transparent;
+height: 50px;
+width: 358px;
+margin-left: 78px;
+margin-right: 6px;
+}
 .newsletter-btn {
   border: none;
   width: 200px;
@@ -630,6 +640,19 @@ img {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+fill:#FFFFFF;
+cursor: pointer;
+
+
 }
 
 /*============OKNO MODALNE================*/
@@ -700,7 +723,7 @@ img {
   width: 20px;
   height: 20px;
   margin-left: 15px;
-  fill:#212121;
+  fill: #212121;
 }
 .main-form .modal-label {
   position: absolute;
@@ -717,24 +740,24 @@ img {
   border: 0;
   background-color: transparent;
   margin-left: 15px;
-  color:rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+  color: rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .main-form .main-input:focus {
   outline: 0;
 }
 .main-form .legal-checkbox {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .checkbox .statute .privacy-policy {
-color:#2196F3;
+  color: #2196f3;
 }
 .fieldset:has(main-input:focus) {
   border-color: #2196f3;
@@ -743,11 +766,37 @@ color:#2196F3;
   fill: #2196f3;
 }
 .legal-checkbox::before {
-display: block;
-content:"";
-width:15px;
-height:16px;
-border: 1px solid #212121;
+  display: block;
+  content: "";
+  width: 15px;
+  height: 16px;
+  border: 1px solid #212121;
+}
+.input-checkbox:checked + .legal-checkbox::before {
+  background-color: #2196f3;
+  border: none;
+  background-image: url(../images/icons.svg#icon-Vector);
+}
+.modal-button { 
+background-color: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width:200px;
+height: 50px;
+border:none;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 0.53;
+margin-top: 30px;
+}
+.main-input .textarea {
+  height: 120px;
 }
 .fieldset {
   display: flex;
@@ -756,5 +805,5 @@ border: 1px solid #212121;
   border-radius: 4px;
   height: 40px;
   align-items: center;
-  margin-block:28px;
+  margin-block: 28px;
 }
