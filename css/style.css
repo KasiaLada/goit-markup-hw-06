@@ -633,6 +633,15 @@ width: 358px;
 margin-left: 78px;
 margin-right: 6px;
 }
+.newsletter-form ::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 16px;
+}
 .newsletter-btn {
   border: none;
   width: 200px;
@@ -776,6 +785,13 @@ cursor: pointer;
   background-color: #2196f3;
   border: none;
   background-image: url(../images/icons.svg#icon-Vector);
+}
+.main-form ::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
 }
 .modal-button { 
 background-color: #2196F3;
