@@ -771,9 +771,8 @@ height:24;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.statute .privacy-policy {
+.checkbox .statute .privacy-policy {
   color: #2196f3;
-  
 
 }
 .fieldset:has(main-input:focus) {
@@ -781,6 +780,9 @@ height:24;
 }
 .fieldset:has(main-input:focus) .modal-icon {
   fill: #2196f3;
+}
+.main-input:hover + svg {
+  fill: #2196f3; 
 }
 .legal-checkbox::before {
   display: block;
@@ -822,9 +824,7 @@ margin-top: 30px;
 align-content: center;
 margin-left: 120px;
 }
-.main-input .textarea {
-  
-}
+
 .fieldset {
   display: flex;
   position: relative;
