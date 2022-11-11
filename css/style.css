@@ -632,15 +632,16 @@ height: 50px;
 width: 358px;
 margin-left: 78px;
 margin-right: 6px;
+padding:16px;
 }
-.newsletter-form ::placeholder {
+ ::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  margin-left: 16px;
+  
 }
 .newsletter-btn {
   border: none;
@@ -660,7 +661,12 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 fill:#FFFFFF;
 cursor: pointer;
-
+width:24; 
+height:24;
+}
+.newsletter-btn svg {
+  margin-left: 24px;
+ 
 
 }
 
@@ -765,8 +771,10 @@ cursor: pointer;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.checkbox .statute .privacy-policy {
+.statute .privacy-policy {
   color: #2196f3;
+  
+
 }
 .fieldset:has(main-input:focus) {
   border-color: #2196f3;
@@ -792,6 +800,7 @@ cursor: pointer;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
+
 }
 .modal-button { 
 background-color: #2196F3;
@@ -810,9 +819,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 0.53;
 margin-top: 30px;
+align-content: center;
+margin-left: 120px;
 }
 .main-input .textarea {
-  height: 120px;
+  
 }
 .fieldset {
   display: flex;
@@ -822,4 +833,12 @@ margin-top: 30px;
   height: 40px;
   align-items: center;
   margin-block: 28px;
+}
+.textarea-fieldset {
+  padding-top: 8px;
+  position: relative;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-block: 28px;
+  height:120px;
 }
