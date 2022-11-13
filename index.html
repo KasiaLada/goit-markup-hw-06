@@ -423,7 +423,7 @@
               >Web<span class="studio">Studio</span></a
             >
             <address class="address">
-              m.Warszawa, Aleje Jerozolimskie 21 <br />
+              m. Warszawa, Aleje Jerozolimskie 21 <br />
               <a class="mail" href="mailto:info@example.com"
                 >info@example.com</a
               >
@@ -487,6 +487,7 @@
         </button>
         <p>Zostaw swoje dane w formularzu poniżej</p>
 
+        <div class="modal-contet">
         <form class="main-form">
           <fieldset class="fieldset">
           <label class="modal-label" for="name">Imie</label>
@@ -497,7 +498,7 @@
           </fieldset>
 
           <fieldset class="fieldset">
-          <label class="modal-label" for="name">Telefon</label>
+          <label class="modal-label" for="phone">Telefon</label>
           <svg class="modal-icon">
             <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
           </svg>
@@ -511,11 +512,13 @@
           </svg>
           <input class="main-input" type="email" id="email"/>
           </fieldset>
+          
 
           <fieldset class="textarea-fieldset">
             <label class="modal-label" for="textarea">Komentarz</label>
             <input class="main-input"  type="textarea" id="textarea" placeholder="Wprowadź tekst"/>
           </fieldset>
+          
 
           <label for="user-policy" class="legal-checkbox">
             <input type="checkbox" id="legal" class="input-checkbox"/>
@@ -525,6 +528,7 @@
                 >Politykę Prywatności.</a>
                 <button type="submit" class="modal-button">Wyślij</button>
         </form>
+      </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
