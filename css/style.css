@@ -623,6 +623,9 @@ img {
   margin-left: 78px;
   margin-bottom: 20px;
 }
+.newsletter-form {
+  display: flex;
+}
 .newsletter-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -644,6 +647,7 @@ padding:16px;
   
 }
 .newsletter-btn {
+  display: flex;
   border: none;
   width: 200px;
   height: 50px;
@@ -663,6 +667,7 @@ fill:#FFFFFF;
 cursor: pointer;
 width:24; 
 height:24;
+padding-left: 42px;
 }
 .newsletter-btn svg {
   margin-left: 24px;
@@ -762,6 +767,8 @@ height:24;
 .main-form .main-input:focus {
   outline: 0;
 }
+/* -------------- */
+
 .main-form .legal-checkbox {
   font-family: "Roboto";
   font-style: normal;
@@ -771,6 +778,8 @@ height:24;
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* ---------------------- */
+
 .checkbox .statute .privacy-policy {
   color: #2196f3;
 
@@ -791,6 +800,9 @@ height:24;
   height: 16px;
   border: 1px solid #212121;
 }
+/* .input-checkbox {
+  display: flex;
+} */
 .input-checkbox:checked + .legal-checkbox::before {
   background-color: #2196f3;
   border: none;
@@ -805,6 +817,7 @@ font-size: 12px;
 
 }
 .modal-button { 
+  
 background-color: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -821,8 +834,9 @@ font-weight: 500;
 font-size: 16px;
 line-height: 0.53;
 margin-top: 30px;
-align-content: center;
+align-items: center;
 margin-left: 120px;
+
 }
 
 .fieldset {
