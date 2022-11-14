@@ -786,7 +786,7 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-left: 37px;
+  margin-left: 13px;
 }
 .checkbox-svg {
   position: absolute;
@@ -801,7 +801,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+fill: #FFFFFF;
 }
+/* .checkbox:checked ~ .rectangle {
+  border-radius: 2px;
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+} */
 /* .modal-form-policy-text::before {
   display: inline-block;
   content: "";
@@ -812,13 +818,20 @@ img {
   margin-right: 8px;
   margin-left: 16px;
 } */
-/* .modal-form-policy:checked + .modal-form-policy-text::before {
+/* .modal-form-policy:checked {
   background-color: #2196f3;
   border: none;
 
 } */
+.modal-form-policy {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  margin-left: 16px;
+  
 
-.visually-hidden {
+}
+/* .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -828,7 +841,7 @@ height: 1px !important;
 width: 1px !important;
 overflow: hidden;
 
-}
+} */
 .main-form ::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-family: "Roboto";
