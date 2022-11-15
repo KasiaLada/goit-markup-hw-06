@@ -633,6 +633,7 @@ img {
   margin-left: 78px;
   margin-right: 12px;
   padding: 16px;
+  outline: none;
 }
 ::placeholder {
   color: rgba(255, 255, 255, 0.6);
@@ -821,7 +822,6 @@ fill: #FFFFFF;
 /* .modal-form-policy:checked {
   background-color: #2196f3;
   border: none;
-
 } */
 .modal-form-policy {
   width: 0;
