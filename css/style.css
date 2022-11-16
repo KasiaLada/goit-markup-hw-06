@@ -764,6 +764,7 @@ img {
   border: 0;
   background-color: transparent;
   margin-left: 15px;
+  resize: none;
   color: rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
