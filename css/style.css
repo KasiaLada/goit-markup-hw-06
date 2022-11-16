@@ -94,6 +94,7 @@ body {
   padding-bottom: 94px;
 }
 .main-block {
+  max-height: 600px;
   flex-direction: column;
   padding-top: 280px;
   background-color: #2f303a;
@@ -315,7 +316,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cover:hover .overlay {
+.projects-item:hover .overlay {
   transform: translateY(0);
 }
 
@@ -759,6 +760,7 @@ img {
   color: #757575;
 }
 .main-form .main-input {
+  width:100%;
   border: 0;
   background-color: transparent;
   margin-left: 15px;
